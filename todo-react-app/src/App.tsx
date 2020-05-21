@@ -24,9 +24,6 @@ const App: React.FC = () => {
     setTodos(newTodo);
   };
 
-  const deleteTodo: ToggleTodo = (selected) => {
-    const delete = todos.filter((todo) => todo === selected);
-  };
 
   const addTodo: AddTodo = (newTodo) => {
     if (newTodo !== '') {
