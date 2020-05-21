@@ -1,0 +1,33 @@
+.container{
+    width: 400px;
+    height: 70vh;
+    background-color: #dcefff;
+    margin: 15vh auto;
+    border-radius: 20px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container header {
+    border-bottom: 1px #ccc solid ;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;    
+    width: 300px;
+}
+.container ul li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.container ul .complete{
+    text-decoration: line-through;
+    opacity: .5;
+}
