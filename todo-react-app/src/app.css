@@ -13,6 +13,10 @@
     border-bottom: 1px #ccc solid ;
 }
 
+.container .no-task {
+    margin-top: 10px;
+}
+
 .container ul {
     list-style: none;
     padding: 0;    
